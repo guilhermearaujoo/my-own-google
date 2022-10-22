@@ -1,4 +1,4 @@
-<h1 style="align: center;">My Google Page</h1>
+<h1 align="center">My Google Page</h1>
 
 ---
 ## About
