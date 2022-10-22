@@ -1,8 +1,10 @@
-<h1 style="text-align: center;">My Google Page</h1>
+<h1 style="align: center;">My Google Page</h1>
 
+---
 ## About
 This project is a simulation of _**Google's Home Page**_ customized by me. It works like Google so when you type in something it will redirect to google's domain showing the result of your search.
 
+---
 ## Technologies:
 * HTML
 * CSS
@@ -10,6 +12,7 @@ This project is a simulation of _**Google's Home Page**_ customized by me. It wo
 * Jest
 * Bootstrap
 
+---
 ## Usage
 To use this stunning Google page you may do the follow steps:
 ```
@@ -21,7 +24,6 @@ cd my-own-google
 
 open index.html
 ```
-
 ## Author
 👤 **Guilherme Araujo**
 
