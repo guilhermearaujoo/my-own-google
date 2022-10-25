@@ -13,13 +13,37 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/ed09853bd7.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/ed09853bd7.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <nav>
       <a href="" class="grid1">Gmail</a>
       <a href="" class="grid2">Images</a>
-      <i class="fa-solid fa-table-cells fa-xl white"></i>
+      <div>
+        <i class="fa-solid fa-table-cells fa-xl white" id="mini-header"> </i>
+        <div class="itens-header">
+          <div class="item">
+            <i class="fa-solid fa-circle fa-3x white"></i>
+            <a href="">Conta</a>
+          </div>
+          <div class="item">
+            <i class="fa-brands fa-google fa-3x"></i>
+            <a href="">Search</a>
+          </div>
+          <div class="item">
+            <i class="fa-brands fa-google-drive fa-3x"></i>
+            <a href="">Drive</a>
+          </div>
+          <div class="item">
+            <i class="fa-brands fa-google-play fa-3x"></i>
+            <a href="">Play</a>
+          </div>
+        </div>
+      </div>
+
       <i class="fa-solid fa-circle fa-3x white"></i>
     </nav>
 
@@ -34,11 +58,7 @@
 
       <section class="search-bar">
         <i class="fa-solid fa-magnifying-glass" id="search-logo"></i>
-        <input
-          type="text"
-          name="search"
-          class="form-control"
-        />
+        <input type="text" name="search" class="form-control" />
       </section>
 
       <section class="buttons">
@@ -51,7 +71,7 @@
       <section class="footer">
         <p>Brasil</p>
       </section>
-      <hr>
+      <hr />
       <section class="footer">
         <section class="left">
           <a href="">Sobre</a>
@@ -66,5 +86,6 @@
         </section>
       </section>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
