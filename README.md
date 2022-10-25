@@ -2,7 +2,7 @@
 
 ---
 ## About
-This project is a simulation of _**Google's Home Page**_ customized by me. It works like Google so when you type in something it will redirect to google's domain showing the result of your search.
+:rocket: This project is a simulation of _**Google's Home Page**_ customized by me. It works like Google so when you type in something it will redirect to google's domain showing the result of your search.
 
 ---
 ## Technologies:
