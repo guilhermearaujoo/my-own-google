@@ -23,7 +23,7 @@
       <a href="" class="grid1">Gmail</a>
       <a href="" class="grid2">Images</a>
       <div>
-        <i class="fa-solid fa-table-cells fa-xl white" id="mini-header"> </i>
+        <i class="fa-solid fa-table-cells fa-xl white" id="mini-header"></i>
         <div class="itens-header">
           <div class="item">
             <i class="fa-solid fa-circle fa-3x white"></i>
@@ -58,12 +58,15 @@
 
       <section class="search-bar">
         <i class="fa-solid fa-magnifying-glass" id="search-logo"></i>
-        <input type="text" name="search" class="form-control" />
-      </section>
-
-      <section class="buttons">
-        <button class="btn btn-light" type="submit">Pesquisa Google</button>
-        <a class="btn btn-light" href="#" role="button">Estou com sorte</a>
+        <form action="https://www.google.com/search" id="main-form">
+          <input type="text" name="q" class="form-control" id="input-text"/>
+        </form>
+        <section class="buttons">
+          <button class="btn btn-light" type="submit" value="Google Search" id="send" form="main-form">
+            Pesquisa Google
+          </button>
+          <a class="btn btn-light" href="https://www.google.com/doodles" role="button">Estou com sorte</a>
+        </section>
       </section>
     </main>
 
