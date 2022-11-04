@@ -4,6 +4,8 @@
 ## About
 :rocket: This project is a simulation of _**Google's Home Page**_ customized by me. It works like Google so when you type in something it will redirect to google's domain showing the result of your search.
 
+Go ahead and click in this link to see my project [My own Google]()
+
 ---
 ## Technologies:
 * HTML
